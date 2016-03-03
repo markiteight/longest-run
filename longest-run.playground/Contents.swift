@@ -1,4 +1,8 @@
-//: Playground - noun: a place where people can play
+/* 
+The challenge here is to implement the longestRun function so that the
+longest run of the same continuous character will be selected from a String.
+This excercise lends itself to TDD and we have provided a few basic tests below.
+*/
 
 import Cocoa
 
@@ -7,8 +11,8 @@ func longestRun(whole: String) -> String {
 }
 
 // identity test
-var zz = "zzzz"
-assert(zz == longestRun(zz), "\(zz) should be the longest run of chars")
+var zzzz = "zzzz"
+assert(zzzz == longestRun(zzzz), "\(zzzz) should be the longest run of chars")
 
 // book
 // var book = "book"

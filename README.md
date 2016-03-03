@@ -1,6 +1,6 @@
 # longest-run
 
-The problem is to find the longest run of continuous characters in a string. Here are some examples:
+Lets find the longest run of continuous characters in a string. Here are some examples:
 
 - "book" => "oo"
 - "abbcccdddd" => "dddd"
